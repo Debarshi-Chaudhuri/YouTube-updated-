@@ -31,3 +31,38 @@
     transform: rotate(360deg);
   }
 }
+.search{
+  display: inline-flex;
+  align-content: center;
+  padding: 2%;
+}
+.search,h3{
+  font-size: 25px;
+  align-self: center;
+}
+.search,input{
+  margin-left: 7%;
+  width: 700px;
+  height:33px;
+  font-size: 15px;
+}
+.image{
+  width:220px;
+  height: 130px;
+  cursor: pointer;
+}
+.items{
+  flex-direction: column;
+  padding: 2%;
+  max-width: 250px;
+}
+ .title{
+   font-size: 15px;
+   cursor: pointer;
+ }
+ .video{
+   padding: 2%;
+   width:900px;
+ }
+
+ 
