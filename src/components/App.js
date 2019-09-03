@@ -38,7 +38,7 @@ class App extends Component{
         )
     }
     render(){
-        
+        window.scrollTo(0,0)
         return(
             <div>
                 <Searchbar search={this.searching} />

@@ -1,6 +1,7 @@
 import React from 'react'
 import { VideoItems } from "./VideoItems";
 export const VideoList=(props)=>{
+    console.log(props)
     return(<div>{
         props.video.map(
             (video)=>{

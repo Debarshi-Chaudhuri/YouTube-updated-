@@ -30,11 +30,9 @@ class Home extends Component{
         return(
         <div style={{display:'flex'}}>
             {this.props.status && 
-            <div>
-                <VideoPlayer id={this.props.id} />
-            </div>
+                <VideoPlayer {...this.props} />
             }
-            <VideoList video={this.props.video} onclick={this.click} />
+            <VideoList {...this.props} onclick={this.click} />
         </div>
         )
     }
